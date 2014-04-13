@@ -1,0 +1,22 @@
+{
+  "name": "pull-2step-replicate",
+  "description": "a very simple replication strategy",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/pull-2step-replicate",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/pull-2step-replicate.git"
+  },
+  "dependencies": {
+    "pull-handshake": "~0.0.0",
+    "pull-stream": "~2.21.0"
+  },
+  "devDependencies": {
+    "tape": "~2.12.2"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
